@@ -1,3 +1,12 @@
+:root{
+    --main-bg-color: #F6FFF8;
+    --input-focus: #6B9080;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #323232;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +16,7 @@
 
 html, body{
     height: 100%;
+    background: var(--main-bg-color);
 }
 
 body{
@@ -16,11 +26,6 @@ body{
 }
 
 .form {
-    --input-focus: #2d8cf0;
-    --font-color: #323232;
-    --font-color-sub: #666;
-    --bg-color: #fff;
-    --main-color: #323232;
     padding: 40px;
     background: lightgrey;
     display: flex;
@@ -86,12 +91,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .icon {
-    width: 24px;
-    height: 24px;
-    fill: var(--main-color);
   }
   
   .button-log:active, .button-confirm:active {
