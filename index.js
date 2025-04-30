@@ -9,7 +9,7 @@ $('.valider').on('click', function(){
     }
     $.ajax({
         type: "POST",
-        url: "https://hook.eu2.make.com/9nj73z4de2cje4ks9b8vd269t1g1k1n8",
+        url: "https://n8n.oriatec.fr/webhook-test/88d519cd-fd51-48cb-a7a5-4722d4aedd05",
         data: data,
         success: function (response) {
             console.log(response)
