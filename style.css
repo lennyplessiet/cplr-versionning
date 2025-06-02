@@ -112,3 +112,21 @@ body{
     cursor: pointer;
   }
   
+  .valider{
+    margin: 50px auto 0 auto;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+  }
+
+  .valider:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+  }
