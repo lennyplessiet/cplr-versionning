@@ -15,4 +15,4 @@ jobs:
           publish_dir: ./
           github_token: {{secrets.GITHUB_TOKEN}}
 permissions:
-  content: write
+  contents: write
